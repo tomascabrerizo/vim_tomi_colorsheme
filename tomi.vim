@@ -9,7 +9,7 @@ if exists("syntax_on")
 endif
 let g:colors_name = "tomi"
 
-highlight Normal       guifg=#ffffff guibg=#1c1c1c
+highlight Normal       guifg=#ffffff  guibg=#1c1c1c
 highlight Comment	   guifg=#888888
 highlight Constant	   guifg=#deb887				    gui=none
 highlight Identifier   guifg=#0099ff
@@ -22,7 +22,7 @@ highlight Number	   guifg=#ffffff
 highlight Function     guifg=#ffffff
 highlight Operator     guifg=#0099ff
 highlight Structure    guifg=#ee7ae9
-highlight MatchParen   guifg=#000000   guibg=#0000ff
+highlight MatchParen   guifg=#ffffff   guibg=#4c4c4c
 
 highlight Cursor        guibg=#00ff00
 highlight CursorLine    guibg=#222288 
