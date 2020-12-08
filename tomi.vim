@@ -29,7 +29,7 @@ highlight CursorLine    guibg=#222288
 highlight CursorLineNR  guifg=#00ff00 
 
 highlight Error		     			   guibg=#ff0000
-highlight Todo		   guifg=#000080   guibg=#c0c000
+highlight Todo		   guifg=#888888   guibg=#c0c000    gui=bold
 
 highlight Directory    guifg=#4bff9f
 highlight Search	     			   guibg=#c0c000
