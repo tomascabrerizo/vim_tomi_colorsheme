@@ -10,13 +10,13 @@ endif
 let g:colors_name = "tomi"
 
 highlight Normal       guifg=#ffffff guibg=#1c1c1c
-highlight Comment	   guifg=#888888
-highlight Constant	   guifg=#deb887				    gui=none
+highlight Comment      guifg=#888888
+highlight Constant     guifg=#deb887                    gui=none
 highlight Identifier   guifg=#0099ff
-highlight Statement    guifg=#ee7ae9				    gui=none
+highlight Statement    guifg=#ee7ae9                    gui=none
 highlight PreProc      guifg=#deb887
 highlight Type         guifg=#4bff9f
-highlight Special	   guifg=#0099ff
+highlight Special      guifg=#0099ff
 
 
 highlight Operator     guifg=#0099ff
