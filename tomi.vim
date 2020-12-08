@@ -14,8 +14,8 @@ highlight Comment	   guifg=#888888
 highlight Constant	   guifg=#deb887				    gui=none
 highlight Identifier   guifg=#0099ff
 highlight Statement    guifg=#ee7ae9				    gui=none
-highlight PreProc	   guifg=#deb887
-highlight Type		   guifg=#4bff9f
+highlight PreProc      guifg=#deb887
+highlight Type         guifg=#4bff9f
 highlight Special	   guifg=#0099ff
 
 
@@ -23,7 +23,7 @@ highlight Operator     guifg=#0099ff
 highlight Structure    guifg=#ee7ae9
 
 highlight Error		     			   guibg=#ff0000
-highlight Todo		   guifg=#000080   guibg=#c0c000
+highlight Todo         guifg=#000080   guibg=#c0c000
 
 highlight Directory    guifg=#4bff9f
 highlight Search	     			   guibg=#c0c000
