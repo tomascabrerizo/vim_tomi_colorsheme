@@ -22,11 +22,11 @@ highlight Special      guifg=#0099ff
 highlight Operator     guifg=#0099ff
 highlight Structure    guifg=#ee7ae9
 
-highlight Error		     			   guibg=#ff0000
+highlight Error                        guibg=#ff0000
 highlight Todo         guifg=#000080   guibg=#c0c000
 
 highlight Directory    guifg=#4bff9f
-highlight Search	     			   guibg=#c0c000
+highlight Search                       guibg=#c0c000
 highlight Visual                                        gui=bold
 highlight Cursor       	                                gui=bold
 highlight StatusLine   guifg=#ffffff   guibg=#0000ff    gui=none 
