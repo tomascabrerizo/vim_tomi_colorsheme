@@ -22,7 +22,11 @@ highlight Number	   guifg=#ffffff
 highlight Function     guifg=#ffffff
 highlight Operator     guifg=#0099ff
 highlight Structure    guifg=#ee7ae9
-highlight MatchParen   guibg=#0000ff
+highlight MatchParen   guifg=#000000   guibg=#00ff00
+
+highlight Cursor        guibg=#00ff00
+highlight CursorLine    guibg=#222288 
+highlight CursorLineNR  guifg=#00ff00 
 
 highlight Error		     			   guibg=#ff0000
 highlight Todo		   guifg=#000080   guibg=#c0c000
@@ -31,7 +35,7 @@ highlight Directory    guifg=#4bff9f
 highlight Search	     			   guibg=#c0c000
 highlight Visual                                        gui=bold
 highlight Cursor       	                                gui=bold
-highlight StatusLine   guifg=#ffffff   guibg=#0000ff    gui=none 
+highlight StatusLine   guifg=#ffffff   guibg=#222288    gui=none 
 highlight StatusLineNC guifg=#ffffff   guibg=#444444    gui=none 
 highlight VertSplit    guifg=#444444   guibg=#444444    gui=none
 highlight LineNr       guifg=#888888
