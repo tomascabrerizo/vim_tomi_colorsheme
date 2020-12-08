@@ -22,7 +22,7 @@ highlight Number	   guifg=#ffffff
 highlight Function     guifg=#ffffff
 highlight Operator     guifg=#0099ff
 highlight Structure    guifg=#ee7ae9
-highlight MatchParen   guifg=#000000   guibg=#00ff00
+highlight MatchParen   guifg=#000000   guibg=#0000ff
 
 highlight Cursor        guibg=#00ff00
 highlight CursorLine    guibg=#222288 
