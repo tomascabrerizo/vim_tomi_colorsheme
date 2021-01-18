@@ -1,6 +1,6 @@
 " Vim color file
 " Maintainer: Tomas Cabrerizo <tomascabrerizo@gmail.com>	
-" Last Change:	2020 Dec 08
+" Last Change:	2021 Jan 18
 
 set background=dark
 hi clear
@@ -9,19 +9,21 @@ if exists("syntax_on")
 endif
 let g:colors_name = "tomi"
 
-highlight Normal       guifg=#ffffff  guibg=#1c1c1c
+"Green old color #4bff9f
+
+highlight Normal       guifg=#ebdbb2  guibg=#1c1c1c
 highlight Comment	   guifg=#888888
-highlight Constant	   guifg=#deb887				    gui=none
-highlight Identifier   guifg=#0099ff
-highlight Statement    guifg=#ee7ae9				    gui=none
-highlight PreProc	   guifg=#deb887
-highlight Type		   guifg=#4bff9f
-highlight Special	   guifg=#0099ff
-highlight Number	   guifg=#ffffff
+highlight Constant	   guifg=#ffcb45				    gui=none
+highlight Identifier   guifg=#ffcb45
+highlight Statement    guifg=#ffcb45				    gui=none
+highlight PreProc	   guifg=#ebdbb2
+highlight Type		   guifg=#ffcb45
+highlight Special	   guifg=#ffcb45
+highlight Number	   guifg=#ebdbb2
 
 highlight Function     guifg=#ffffff
-highlight Operator     guifg=#0099ff
-highlight Structure    guifg=#ee7ae9
+highlight Operator     guifg=#ffcb45
+highlight Structure    guifg=#ffcb45
 highlight MatchParen   guifg=#ffffff   guibg=#4c4c4c
 
 highlight Cursor        guibg=#00ff00
@@ -31,7 +33,7 @@ highlight CursorLineNR  guifg=#00ff00
 highlight Error		     			   guibg=#ff0000
 highlight Todo		   guifg=#ff0000   guibg=#1c1c1c    gui=bold
 
-highlight Directory    guifg=#4bff9f
+highlight Directory    guifg=#ffcb45
 highlight Search	     			   guibg=#c0c000
 highlight Visual                                        gui=bold
 highlight Cursor       	                                gui=bold
