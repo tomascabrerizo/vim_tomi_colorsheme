@@ -21,7 +21,7 @@ highlight Type		   guifg=#ffcb45
 highlight Special	   guifg=#ffcb45
 highlight Number	   guifg=#ebdbb2
 
-highlight Function     guifg=#ffffff
+highlight Function     guifg=#ffcb45
 highlight Operator     guifg=#ffcb45
 highlight Structure    guifg=#ffcb45
 highlight MatchParen   guifg=#ffffff   guibg=#4c4c4c
