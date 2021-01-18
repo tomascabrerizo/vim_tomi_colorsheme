@@ -11,6 +11,8 @@ let g:colors_name = "tomi"
 
 "Green old color #4bff9f
 
+highlight Title       guifg=#ebdbb2
+
 highlight Normal       guifg=#ebdbb2  guibg=#1c1c1c
 highlight Comment	   guifg=#888888
 highlight Constant	   guifg=#ffcb45				    gui=none
