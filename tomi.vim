@@ -37,7 +37,7 @@ highlight Todo		   guifg=#ff0000   guibg=#1c1c1c    gui=bold
 
 highlight Directory    guifg=#ffcb45
 highlight Search	     			   guibg=#c0c000
-highlight Visual                                        gui=bold
+highlight Visual                       guibg=#636363    gui=bold
 highlight Cursor       	                                gui=bold
 highlight StatusLine   guifg=#ffffff   guibg=#222288    gui=none 
 highlight StatusLineNC guifg=#ffffff   guibg=#444444    gui=none 
