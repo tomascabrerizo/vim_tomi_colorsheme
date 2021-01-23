@@ -1,6 +1,6 @@
 " Vim color file
 " Maintainer: Tomas Cabrerizo <tomascabrerizo@gmail.com>	
-" Last Change:	2021 Jan 18
+" Last Change:	2021 Jan 22
 
 set background=dark
 hi clear
@@ -11,21 +11,22 @@ let g:colors_name = "tomi"
 
 "Green old color #4bff9f
 
-highlight Title       guifg=#ebdbb2
+"Gvim colorsheme
+highlight Title       guifg=#ebdbb2  
 
 highlight Normal       guifg=#ebdbb2  guibg=#1c1c1c
 highlight Comment	   guifg=#888888
-highlight Constant	   guifg=#ffcb45				    gui=none
-highlight Identifier   guifg=#ffcb45
-highlight Statement    guifg=#ffcb45				    gui=none
-highlight PreProc	   guifg=#ebdbb2
-highlight Type		   guifg=#ffcb45
-highlight Special	   guifg=#ffcb45
+highlight Constant	   guifg=#ffcb45				    gui=bold
+highlight Identifier   guifg=#ffcb45                    gui=bold  
+highlight Statement    guifg=#ffcb45				    gui=bold
+highlight PreProc	   guifg=#ebdbb2           
+highlight Type		   guifg=#ffcb45                    gui=bold
+highlight Special	   guifg=#ffcb45                    gui=bold
 highlight Number	   guifg=#ebdbb2
 
-highlight Function     guifg=#ffcb45
-highlight Operator     guifg=#ffcb45
-highlight Structure    guifg=#ffcb45
+highlight Function     guifg=#ffcb45                    gui=bold
+highlight Operator     guifg=#ffcb45                    gui=bold
+highlight Structure    guifg=#ffcb45                    gui=bold
 highlight MatchParen   guifg=#ffffff   guibg=#4c4c4c
 
 highlight Cursor        guibg=#00ff00
